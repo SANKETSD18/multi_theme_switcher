@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Theme 1 - Light Minimal */
+.theme1 {
+  background-color: #f9f9f9;
+  color: #222;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Theme 2 - Dark with Sidebar + Bold Font */
+
+.theme2 {
+  background-color: #121212 !important;
+  color: #fff;
+  font-family: 'Georgia', serif;
+  min-height: 100vh;
+}
+
+
+/* Theme 3 - Colorful Grid with Playful Font */
+.theme3 {
+    background-color: #ffe4e1;
+    color: #4a148c;
+    font-family: 'Pacifico', cursive;
+}
