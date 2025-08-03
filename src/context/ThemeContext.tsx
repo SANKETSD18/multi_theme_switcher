@@ -1,7 +1,6 @@
 import { createContext, useState, useEffect } from "react";
 import type { ReactNode } from "react";
 
-
 type Theme = "theme1" | "theme2" | "theme3";
 
 interface ThemeContextType {
@@ -16,8 +15,8 @@ export const ThemeContext = createContext<ThemeContextType>({
 
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   const [theme, setTheme] = useState<Theme>(() => {
-    const storedTheme = localStorage.getItem("theme") as Theme;
-    return storedTheme || "theme1";
+    const stored = localStorage.getItem("theme") as Theme;
+    return stored || "theme1";
   });
 
   useEffect(() => {

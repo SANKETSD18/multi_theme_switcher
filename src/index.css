@@ -8,18 +8,15 @@
 }
 
 /* Theme 2 - Dark with Sidebar + Bold Font */
-
 .theme2 {
-  background-color: #121212 !important;
+  background-color: #121212;
   color: #fff;
   font-family: 'Georgia', serif;
-  min-height: 100vh;
 }
-
 
 /* Theme 3 - Colorful Grid with Playful Font */
 .theme3 {
-    background-color: #ffe4e1;
-    color: #4a148c;
-    font-family: 'Pacifico', cursive;
+  background-color: #ffe4e1;
+  color: #4a148c;
+  font-family: 'Pacifico', cursive;
 }
