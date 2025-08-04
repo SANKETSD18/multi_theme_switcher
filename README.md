@@ -62,4 +62,4 @@ The app should now be running on `http://localhost:5173` (or as per Vite configu
 ## 👨‍💼 Author
 
 **Sanket Dongare**  
-[LinkedIn](https://www.linkedin.com/in/sanketdongare/) • [GitHub](https://github.com/SANKETSD18)
+ [GitHub](https://github.com/SANKETSD18)
